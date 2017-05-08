@@ -1,0 +1,10 @@
+﻿Demo project RESTful API basic DDD concept. Before run please restore nuget packages!
+
+Linq sample: \RTDemoProject.Service\EmployeeService.cs\EmployOfTheMonth
+Unit of work sample: \RTDemoProject.Service\EmployeeService.cs\ChangeChief
+Automaper sample: \RTDemoProject.Service\EmployeeService.cs\GetAllEmployeeContacts
+Custom repository sample: \RTDemoProject.Service\EmployeeService.cs\GetEmployeeBySite
+Fluent API sample (Please see Map classes): RTDemoProject.Entities\EFContext.cs\OnModelCreating
+Unit tests with fake context sample: RTDemoProject.Test\Services\EmployeeServiceTest.cs
+----
+For start EmployOfTheMonth send: ?year=2017&month=4
